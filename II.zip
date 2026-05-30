@@ -1,0 +1,34 @@
+
+
+
+
+PATCH_LIB("libanort.so","0xA8038","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so", "0x51FA80", "01 00 80 D2 C0 03 5F D6"); 
+PATCH_LIB("libanogs.so", "0x9FAC0", "00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanogs.so", "0x9F730", "00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so", "0x6c081cc", "00 00 80 D2 C0 03 5F D6"); //1 second fixed
+PATCH_LIB("libUE4.so", "0x7bb19d0", "00 00 80 D2 C0 03 5F D6"); //1 second fixed
+PATCH_LIB("libUE4.so", "0x7d50e38", "00 00 80 D2 C0 03 5F D6"); //1 second fixed
+PATCH_LIB("libanort.so","0x568A0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x5ACA0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x5BA88","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x5F7F0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x5D17C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x736D4","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x834C8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0xA1800","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0xA33B0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0xA677C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0xA8038","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x130F60","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x130F28","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x3F9A0","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x4507C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x4965C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x49D70","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x52E30","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x78D3C","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x79574","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x824F8","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libanort.so","0x82EE7","00 00 80 D2 C0 03 5F D6");
+PATCH_LIB("libUE4.so", "0x58C8C90", "00 00 80 D2 C0 03 5F D6"); //1 second fixed
